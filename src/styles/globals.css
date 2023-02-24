@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .wrapper{
+    @apply w-4/5 flex flex-col mx-auto my-0 border-b border-black lg:flex-row;
+  }
+}
